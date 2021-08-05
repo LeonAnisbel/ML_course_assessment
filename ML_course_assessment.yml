@@ -1,0 +1,22 @@
+name: ML_course_assessment
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - pingouin
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - pip
+  - ipykernel
+  - nb_conda_kernels
+  - pip: 
+    - nibabel
+
+prefix: /home/jovyan/envs/ML_course_assessment
+

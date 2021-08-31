@@ -1,0 +1,35 @@
+((*- extends 'latex/style_jupyter.tex.j2' -*))
+
+((* block docclass *))
+  \documentclass[12pt]{article}
+((* endblock docclass *))
+
+((* block packages *))
+((( super() ))) % load all other packages
+\usepackage{authblk}
+((* endblock packages *))
+
+((* block margins *))
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=0.75in,rmargin=0.75in}
+((* endblock margins *))
+
+((* block title -*))
+((( super() ))) % load all other packages
+\title{Max Planck School of cognition: Artificial Intelligence and Intelligent Systems - end of course assessment}
+((*- endblock title *))
+
+((* block date *))
+\date{\today}
+((* endblock date *))
+    
+((* block author *))
+\author[1]{Anisbel Leon}
+\author[1]{Also Hanna Wiedenhaus}
+\affil[1]{Leibniz-Institut für Troposphärenforschung e.V., Permoserstraße 15, 04318 Leipzig}
+((* endblock author *))
+
+((* block maketitle *))
+    \maketitle
+    \tableofcontents
+    \pagebreak
+((* endblock maketitle *))

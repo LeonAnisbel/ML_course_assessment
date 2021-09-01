@@ -1,0 +1,9 @@
+name: local
+channels:
+  - conda-forge
+dependencies:
+  - nbconvert
+
+
+prefix: /home/jovyan/envs/ML_course_assessment
+
